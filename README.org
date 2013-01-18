@@ -1,0 +1,5 @@
+* data_munging
+Get my data into line for processing and experiments
+
+ - [[file:wikilogs.py][file:~/Code/data_munging/wikilogs.py]] parses the log files from wikipedia using lxml, it could be generalized to other forms of xml logs
+ - [[file:combinelists.py][file:~/Code/data_munging/combinelists.py]] takes lists on disks and makes them into a CSV edge list. This could be improved, right now it does almost no buffering
